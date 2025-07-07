@@ -9,7 +9,7 @@ This is a Python project following along with the "Neural Networks: Zero to Hero
 ## Development Environment
 
 - **Package Manager**: Uses `uv` (ultra-fast Python package manager)
-- **Python Version**: Requires Python >=3.10
+- **Python Version**: Requires Python >=3.10, currently using 3.11.13
 - **Main Dependencies**: matplotlib, numpy
 - **Dev Dependencies**: ipykernel, jupyterlab
 
@@ -50,10 +50,10 @@ uv export > requirements.txt
 
 ## Project Structure
 
-- `main.py`: Entry point with basic hello world functionality
 - `micrograd_from_scratch_yay.ipynb`: Jupyter notebook containing the main implementation work
 - `pyproject.toml`: Project configuration and dependencies
 - `uv.lock`: Locked dependency versions
+- `main.py`: Entry point with basic hello world functionality, placeholder for now.
 
 ## Architecture Notes
 
